@@ -25,7 +25,7 @@ function Gold() {
           id="dfd"
           label="လက်ရှိ‌ရွှေ‌ဈေးနှုန်း"
           size="small"
-          fullWidth="true"
+          fullWidth
         />
       </Grid>
       <Grid item xs={12}>
@@ -33,7 +33,7 @@ function Gold() {
           id="meney-we-have"
           label="မိမိ၌ရှိသောငွေ"
           size="small"
-          fullWidth="true"
+          fullWidth
         />
       </Grid>
 
@@ -43,7 +43,7 @@ function Gold() {
             startIcon={<DeleteIcon />}
             variant="contained"
             color="error"
-            fullWidth="true"
+            fullWidth
           >
             ဖျက်မည်
           </Button>
@@ -54,7 +54,7 @@ function Gold() {
             startIcon={<CalculateIcon />}
             variant="contained"
             color="primary"
-            fullWidth="true"
+            fullWidth
           >
             တွက်ချက်မည်
           </Button>
