@@ -1,7 +1,6 @@
 import { Grid, TextField, Button, Typography } from "@mui/material";
 import React, { useState } from "react";
 import DeleteIcon from "@mui/icons-material/Delete";
-import CalculateIcon from "@mui/icons-material/Calculate";
 import { Box, ThemeProvider, createTheme } from "@mui/system";
 
 const theme = createTheme({
@@ -178,7 +177,7 @@ function Money() {
         <Grid item xs={6}>
           {/* ...................Calculate Button............................... */}
           <Button
-            startIcon={<CalculateIcon />}
+            
             variant="contained"
             color="primary"
             fullWidth

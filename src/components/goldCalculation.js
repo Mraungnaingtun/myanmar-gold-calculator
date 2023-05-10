@@ -1,7 +1,6 @@
 import React from "react";
 import { Button, Grid, TextField, Typography } from "@mui/material";
 import DeleteIcon from "@mui/icons-material/Delete";
-import CalculateIcon from "@mui/icons-material/Calculate";
 import { useState } from "react";
 import { Box, ThemeProvider, createTheme } from "@mui/system";
 
@@ -160,7 +159,7 @@ function Gold() {
 
         <Grid item xs={6}>
           <Button
-            startIcon={<CalculateIcon />}
+            
             variant="contained"
             color="primary"
             fullWidth
